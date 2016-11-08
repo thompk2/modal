@@ -1,0 +1,29 @@
+$brand-gray: #d7d7d7;
+$brand-black: #333;
+
+body {
+  color: $brand-black;
+  font-family: sans-serif;
+  padding: 0;
+}
+
+ul {
+  border: 1px solid $brand-gray;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 50vw;
+
+  li {
+    padding: 0 20px;
+  }
+
+  li:hover {
+    background-color: $brand-gray;
+    cursor: pointer;
+  }
+}
